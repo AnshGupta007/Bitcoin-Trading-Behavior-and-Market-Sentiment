@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ### Step 1: Train the ML Models
 Run the comprehensive analysis pipeline:
 ```bash
-python ml_analysis_pipeline.py
+python ml_analysis_pipeline.py  --theme.base dark  
 ```
 
 This will:
@@ -54,7 +54,7 @@ This will:
 
 ### Step 2: Launch the Interactive Dashboard
 ```bash
-streamlit run streamlit_app.py
+streamlit run streamlit_app.py  --theme.base dark  
 ```
 
 The dashboard will open at `http://localhost:8501` with 4 interactive pages:
@@ -92,3 +92,4 @@ Ansh Gupta
 
 ## Last Updated
 February 10, 2026
+
